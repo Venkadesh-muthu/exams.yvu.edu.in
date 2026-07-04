@@ -1,0 +1,80 @@
+CRITICAL - 2026-01-23 06:02:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "director/index.php"
+[Method: GET, Route: director]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('director/index.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('director/index', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('director/index')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(29): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->director()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-23 06:03:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "director/index.php"
+[Method: GET, Route: director]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('director/index.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('director/index', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('director/index')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(29): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->director()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-23 07:03:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ug_pprs.php"
+[Method: GET, Route: ug-pprs]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ug_pprs.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('ug_pprs', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('ug_pprs')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(50): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->ugPprs()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-23 07:18:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pg_pprs.php"
+[Method: GET, Route: pg-pprs]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pg_pprs.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pg_pprs', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('pg_pprs')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(57): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->pgPprs()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-23 10:54:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pg_courses.php"
+[Method: GET, Route: pg-courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pg_courses.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pg_courses', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('pg_courses')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(113): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->pgCourses()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

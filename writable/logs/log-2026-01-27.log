@@ -1,0 +1,56 @@
+CRITICAL - 2026-01-27 03:00:38 --> ErrorException: Cannot redeclare App\Controllers\MainController::bComGeneral()
+[Method: GET, Route: mba-hrm]
+in APPPATH\Controllers\MainController.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-27 03:00:41 --> ErrorException: Cannot redeclare App\Controllers\MainController::bComGeneral()
+[Method: GET, Route: pg-courses]
+in APPPATH\Controllers\MainController.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-27 03:05:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "b_com_general.php"
+[Method: GET, Route: b-com-general]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('b_com_general.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('b_com_general', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('b_com_general')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(183): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->bComGeneral()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-27 03:05:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "b_com_general.php"
+[Method: GET, Route: b-com-general]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('b_com_general.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('b_com_general', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('b_com_general')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(183): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->bComGeneral()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-27 03:05:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "b_com_general.php"
+[Method: GET, Route: b-com-general]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('b_com_general.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('b_com_general', [], true)
+ 3 APPPATH\Views\layout\templates.php(4): view('b_com_general')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\cdoe.yvu.edu.in\\app\\Views\\layout\\templates.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('layout/templates', [], true)
+ 7 APPPATH\Controllers\MainController.php(183): view('layout/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MainController->bComGeneral()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

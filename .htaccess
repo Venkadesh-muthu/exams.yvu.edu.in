@@ -1,0 +1,23 @@
+RewriteEngine On
+
+# Allow AutoSSL verification
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+
+# If request is not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect all requests to index.php
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Deny direct access to PHP files
+<FilesMatch "\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Allow access only to index.php
+<Files "index.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
