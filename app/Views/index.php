@@ -110,7 +110,7 @@
                     class="img-fluid rounded-circle mb-3"
                     width="186" height="186" alt="">
                 <h6 class="fw-bold mb-1">Dr. N. C. Gangi Reddy</h6>
-                <p class="mb-1">Registrar (i/c)</p>
+                <p class="mb-1">Registrar</p>
                 <!-- <a href="#" class="text-decoration-none fw-semibold">
                     Message <i class="fa fa-external-link"></i>
                 </a> -->
