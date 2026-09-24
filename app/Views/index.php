@@ -1,5 +1,5 @@
 <!-- CONVOCATION ANNOUNCEMENT -->
-<div class="convocation-bar">
+<!-- <div class="convocation-bar">
     <marquee behavior="scroll" direction="left" scrollamount="5">
         <span class="announce-icon">🎓</span>
 
@@ -14,7 +14,7 @@
 
         | Contact: <b>9703216198</b> for queries.
     </marquee>
-</div>
+</div> -->
 <!-- LOCATION MODAL -->
 <div class="modal fade" id="locationModal" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered modal-sm">
