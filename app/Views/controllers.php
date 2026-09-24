@@ -31,7 +31,7 @@
               <!-- Controller 1 -->
               <tr>
                 <td style="width: 40%;" class="text-center">
-                  <img src="<?= base_url('assets/images/controllers/ksvkr.png') ?>"
+                  <img src="<?= base_url('assets/images/Controllers/ksvkr.png') ?>"
                        class="img-fluid rounded"
                        width="120" height="130">
                 </td>
@@ -48,7 +48,7 @@
               <!-- Controller 2 -->
               <tr>
                 <td class="text-center">
-                  <img src="<?= base_url('assets/images/controllers/mk.png') ?>"
+                  <img src="<?= base_url('assets/images/Controllers/mk.png') ?>"
                        class="img-fluid rounded"
                        width="120" height="130">
                 </td>
@@ -65,7 +65,7 @@
               <!-- Controller 3 -->
               <tr>
                 <td class="text-center">
-                  <img src="<?= base_url('assets/images/controllers/ksr.png') ?>"
+                  <img src="<?= base_url('assets/images/Controllers/ksr.png') ?>"
                        class="img-fluid rounded"
                        width="120" height="130">
                 </td>
@@ -82,7 +82,7 @@
               <!-- Controller 4 -->
               <tr>
                 <td class="text-center">
-                  <img src="<?= base_url('assets/images/controllers/msc.png') ?>"
+                  <img src="<?= base_url('assets/images/Controllers/msc.png') ?>"
                        class="img-fluid rounded"
                        width="120" height="130">
                 </td>
