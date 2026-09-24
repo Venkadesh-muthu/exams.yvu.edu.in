@@ -106,10 +106,10 @@
 
             <!-- Registrar -->
             <div class="col-md-3 col-sm-6">
-                <img src="assets/images/administration/prof.padmaregistrar.png"
+                <img src="assets/images/administration/Dr.N.C.Gangi_Reddy.jpeg"
                     class="img-fluid rounded-circle mb-3"
                     width="186" height="186" alt="">
-                <h6 class="fw-bold mb-1">Prof. P. Padma</h6>
+                <h6 class="fw-bold mb-1">Dr. N. C. Gangi Reddy</h6>
                 <p class="mb-1">Registrar (i/c)</p>
                 <!-- <a href="#" class="text-decoration-none fw-semibold">
                     Message <i class="fa fa-external-link"></i>
